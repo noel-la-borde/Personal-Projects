@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Petmmunity</title> 
+<link href="reset.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="reset-webview.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<body>
+
+<!-- Part 1: Navbar Starter Code -->
+
+<div class="navbar">
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#search">Search</a></li>
+<li><a href="#ourwork">Our Work</a></li>
+<!--- Add to Nav Bar --->
+<li><button id="theme-button">Toggle Dark Mode</button></li> 
+<!-- Stretch Challenge: Drop Down -->
+</ul>
+</div>
+
+<!-- Part 2: Flexbox Layout Stater Code -->
+
+<div class="container">
+<div class="item"></div>
+<div class="item"></div>
+<div class="item"></div>
+</div>
+
+<section id="home">
+<div class="header-img">
+<img src="header.jpg">
+</div>
+
+<div class="header-container">
+<h1> How many stray pets you saw today? </h1> 
+</div> 
+</section>
+
+  <section id="about"> 
+<h2> How does Petmmunity works? </h2> 
+
+<hr> 
+<p> Petmmunity is an institution in which the main focus is to save and preserve animal lives, specifically pets. We rescue the pets in different areas all around the country and then the pets get the opportunity to be adopted, to have a familly and to change their lifes. Our website shows the different pets avaivable by category with all the pet details, like:
+<ul>
+<li>Breed</li>
+<li>Height</li>
+<li>Weight</li>
+</ul>
+</p>
+   
+  </section>
+<hr> <br> 
+<section id="search">
+<div class="revealable search">  
+ 
+
+  <div class="imgs">
+<img src="Petmmunity.jpg" alt="image 1">
+<img src="Petmmunity2.jpg" alt="image 2">
+  </div> 
+
+<textarea> This image shows how animals suffer and the impact a simple action would make in a stray pet's life. </textarea> <hr>  
+
+  
+<h3> Wanna be part of the solution?</h3> <br>
+ <div class="header-button">
+<button> Type your address </button>
+<button> See Pet Categories </button>
+<button> User Interest </button> <br>
+ </div>
+</div>
+</section>
+ 
+<hr> <br> 
+  <section id=ourwork>
+  <div class="revealable ourwork">
+<h3 id="text2"> Have you wonder how a stray pet rescue is made? </h3>
+
+<iframe width="550" height="430" src="https://www.youtube.com/embed/V_t6rD6Pelo" title="Stray Puppy Gets Rescued by the Dodo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>" <br>
+
+<p> <a href="https://www.thedodo.com/" target="blank"> The Dodo </a> is a place is an institution that cares for the animal's wellbeing. The Dodo goal is to make caring about animals a viral cause. In the video above, the user can notice how the puppy got rescued and brought to a new life. </p> 
+  </div>    
+</section>
+
+ 
+<link rel="icon" type="image/x-icon" href="Petmmunity.png"> 
+<!--- Add above the closing body tag </body> --->
+
+<div class="petition" id="petition">
+
+<h2 id="text">Sign Our Petition 📢</h2>
+<div class="petition-container">
+<div class="petition-para">
+<!-- info goes here -->
+<p> Please take a time and sign our petition to help us rescue more animals using government funding. Your support is really important to us and to this matter. </p>
+
+</div> 
+
+<div class="signatures">
+<p>🖊️ Rosangel from Bronx supports this.</p>
+<p>🖊️ Luis from Philadelphia supports this.</p>
+<p>🖊️ Harlen from Reading supports this.</p>
+<div id= "input"> </div>
+</div>
+
+</div>
+</div>
+  
+  
+<!--- Sign Petition Form --->
+<form id="sign-petition" tittle="sign-petition">
+<!-- inputs go here -->
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"> <br> <br>
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br> <br>
+<label for="hometown">Hometown:</label>
+<input type="text" id="hometown" name="hometown"> 
+</form>
+ 
+
+<!--- Sign Now Button --->
+<br> <button id="sign-now-button">Sign Now</button>
+
+  <div id="thanks-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content"></p>
+      </div>
+     <img src="modal.gif" />
+    </div>
+  </div>
+
+<script src="index.js"></script>
+    
+</body>
+</html>
