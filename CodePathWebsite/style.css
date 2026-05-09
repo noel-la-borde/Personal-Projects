@@ -1,4 +1,4 @@
-body{
+ body {
   height: 100%;
   width: 100%;
   background-color: lightblue;
@@ -197,20 +197,6 @@ image-container img{
 }
 
 
-/* Style rules for flex-item 1 */
-.flex-item:nth-of-type(1) {
-
-}
-
-/* Style rules for flex-item 2 */
-.flex-item:nth-of-type(2) {
-
-}
-
-/* Style rules for flex-item 3 */
-.flex-item:nth-of-type(3) {
-
-}
 
 
 /* Style set for all flex-items */
